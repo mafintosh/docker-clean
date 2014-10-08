@@ -4,3 +4,4 @@ docker-clean [options]
   --force,         -f
   --no-images
   --no-containers
+  --version

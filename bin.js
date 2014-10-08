@@ -22,6 +22,11 @@ if (argv.help) {
   process.exit(0)
 }
 
+if (argv.version) {
+  console.log(require('./package.json').version)
+  process.exit(0)
+}
+
 clean(argv, function(err, result) {
   if (err) return onerror(err)
   console.log('Removed %d unused container(s) and %d unused image(s)', result.containers, result.images)
