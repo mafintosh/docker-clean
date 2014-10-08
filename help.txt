@@ -1,4 +1,4 @@
-docker-clean [options]
+Usage: docker-clean [options]
 
   --host,          -H   [docker-host]
   --force,         -f
