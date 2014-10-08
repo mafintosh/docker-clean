@@ -25,7 +25,7 @@ module.exports = function(opts, cb) {
           if (!opts.force && c.State && c.State.Running) return n()
 
           result.containers++
-          request.del('/containers/'+c.Id, {drain:true, qs:{force:!!opts.force}}, next())
+          request.del('/containers/'+c.Id, {drain:true, qs:{force:!!opts.force}}, n)
         })
       })
     })
