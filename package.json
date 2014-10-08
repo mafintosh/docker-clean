@@ -1,6 +1,6 @@
 {
   "name": "docker-clean",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Clean up unused docker containers and images",
   "main": "index.js",
   "dependencies": {
