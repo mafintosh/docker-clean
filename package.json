@@ -1,0 +1,31 @@
+{
+  "name": "docker-clean",
+  "version": "0.0.0",
+  "description": "Clean up unused docker containers and images",
+  "main": "index.js",
+  "dependencies": {
+    "after-all": "^2.0.1",
+    "docker-remote-api": "^4.2.0",
+    "minimist": "^1.1.0"
+  },
+  "devDependencies": {},
+  "bin": {
+    "docker-clean": "./bin.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/docker-clean.git"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/docker-clean/issues"
+  },
+  "homepage": "https://github.com/mafintosh/docker-clean",
+  "keywords": [
+    "docker",
+    "clean",
+    "cleanup",
+    "unused"
+  ]
+}
