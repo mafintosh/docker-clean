@@ -8,7 +8,7 @@ module.exports = function(opts, cb) {
   if (!opts) opts = {}
   if (!cb) cb = noop
 
-  var request = docker(opts.host, {version:'v1.14'})
+  var request = docker(opts.host, {version:'v1.15'})
   var result = {containers:0, images:0}
 
   var cleanContainers = function(cb) {
